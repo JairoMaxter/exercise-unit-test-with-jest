@@ -16,7 +16,7 @@ const fromDollarToYen = (valor) => {
 }
 
 const fromYenToPound = (valor) => {
-    let moneda = (valor / 127.9) / 0.8;
+    let moneda = (valor / 127.9) * 0.8;
     return (moneda);
 }
 
